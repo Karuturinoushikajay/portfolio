@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karuturi Noushik Ajay | Portfolio</title>
+    <!-- Google Fonts: Outfit for modern, geometric typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Boxicons for modern icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Background Elements -->
+    <div class="background-glow blur-purple"></div>
+    <div class="background-glow blur-blue"></div>
+
+    <!-- Header & Navigation -->
+    <header class="header">
+        <a href="#hero" class="logo">Ajay<span>.</span></a>
+        
+        <div class="menu-icon" id="menu-icon">
+            <i class='bx bx-menu'></i>
+        </div>
+
+        <nav class="navbar" id="navbar">
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#experience" class="nav-link">Experience</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#contact" class="nav-link">Contact</a>
+            
+            <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Theme">
+                <i class='bx bx-moon'></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero section">
+            <div class="hero-content reveal">
+                <p class="greeting">Hi, I'm</p>
+                <h1 class="name">Karuturi Noushik Ajay</h1>
+                <h2 class="title">
+                    <span class="gradient-text">Software Development Engineer</span> 
+                    <span class="divider">&bull;</span> 
+                    AI Engineer
+                </h2>
+                <p class="summary">
+                    Passionate about building scalable, secure, and real-world software products. Specializing in full-stack development and intelligent systems to deliver high-impact solutions.
+                </p>
+                
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <!-- Replace '#' with path to actual resume PDF if available -->
+                    <a href="#" class="btn btn-secondary">Download Resume <i class='bx bx-download'></i></a>
+                </div>
+                
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/karuturiajay/" target="_blank" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/Karuturinoushikajay" target="_blank" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+                    <a href="mailto:karuturiajay2@gmail.com" aria-label="Email"><i class='bx bx-envelope'></i></a>
+                </div>
+            </div>
+            
+            <div class="hero-illustration reveal right">
+                <!-- Abstract developer/AI illustration container -->
+                <div class="glass-orb orb-1"></div>
+                <div class="glass-orb orb-2"></div>
+                <div class="glass-orb orb-3"></div>
+                
+                <div class="tech-card code-snippet">
+                    <div class="card-header">
+                        <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                    </div>
+                    <pre><code><span class="keyword">const</span> <span class="variable">developer</span> = {
+  <span class="property">name</span>: <span class="string">"Ajay Karuturi"</span>,
+  <span class="property">roles</span>: [<span class="string">"SDE"</span>, <span class="string">"AI Engineer"</span>],
+  <span class="property">passion</span>: <span class="string">"Real-world impact"</span>
+};</code></pre>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section">
+            <div class="section-title reveal">
+                <h2>About <span class="gradient-text">Me</span></h2>
+                <div class="title-underline"></div>
+            </div>
+            
+            <div class="about-content reveal grid-2-col">
+                <div class="about-text">
+                    <p>I am a highly motivated <strong>Software Development Engineer</strong> and <strong>AI Engineer</strong> based in Bengaluru. With a strong foundation in Information Science from Visvesvaraya Technological University, I am dedicated to architecting and developing robust software systems.</p>
+                    
+                    <p>My core focus lies in both <strong>Software Engineering</strong> and <strong>AI Development</strong>. I thrive on translating complex problems into scalable, real-world products. From building secure MERN stack web applications to integrating facial authentication and machine learning tools, I aim to create seamless user experiences and resilient back-ends.</p>
+
+                    <p>I possess a deep interest in product development, strictly adhering to clean code practices, security standards like CFR 21 compliance, and efficient system architectures.</p>
+                </div>
+                <div class="about-stats-container">
+                    <div class="stat-card">
+                        <i class='bx bx-code-alt'></i>
+                        <h3>Full Stack</h3>
+                        <p>Modern Web & APIs</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class='bx bx-brain'></i>
+                        <h3>AI & ML</h3>
+                        <p>Intelligent Systems</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class='bx bx-shield-quarter'></i>
+                        <h3>Security</h3>
+                        <p>Compliant Architecture</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class='bx bx-rocket'></i>
+                        <h3>Products</h3>
+                        <p>Real-world Solutions</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section glass-section">
+            <div class="section-title reveal">
+                <h2>Technical <span class="gradient-text">Arsenal</span></h2>
+                <div class="title-underline"></div>
+            </div>
+            
+            <div class="skills-container reveal grid-3-col">
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class='bx bx-code-block'></i>
+                        <h3>Programming</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span>C/C++</span>
+                        <span>Python</span>
+                        <span>Java</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class='bx bx-window-alt'></i>
+                        <h3>Web Development</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span>HTML/CSS</span>
+                        <span>React.js</span>
+                        <span>Node.js</span>
+                        <span>Express</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class='bx bx-data'></i>
+                        <h3>Database & APIs</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span>MongoDB</span>
+                        <span>MySQL</span>
+                        <span>RESTful APIs</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class='bx bx-wrenches'></i>
+                        <h3>Tools & Control</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span>Git</span>
+                        <span>GitHub</span>
+                        <span>Postman</span>
+                        <span>VS Code</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class='bx bx-check-shield'></i>
+                        <h3>Security & AI</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span>Secure Systems</span>
+                        <span>CFR 21 Compliance</span>
+                        <span>Facial Auth</span>
+                        <span>Machine Learning</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Internship Experience Section -->
+        <section id="experience" class="experience section">
+            <div class="section-title reveal">
+                <h2>Professional <span class="gradient-text">Experience</span></h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="timeline reveal">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content card glass-card">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="role">Software Engineering Intern</h3>
+                                <h4 class="company">Raise Lab Equipments</h4>
+                            </div>
+                            <span class="badge">Internship</span>
+                        </div>
+                        
+                        <p class="role-desc">Focus: Full-Stack & Product Development</p>
+                        
+                        <ul class="duties">
+                            <li>Developed reliable and highly secure software logic for specialized lab equipment products, specifically targeting <strong>Hardness</strong> and <strong>Tap Density</strong> testing machines.</li>
+                            <li>Engineered secure systems aligning heavily with <strong>CFR 21 Part 11 Compliance</strong>, securing electronic records and ensuring robust audit trails.</li>
+                            <li>Drove full-stack web architectures for real-time monitoring and product management interfaces.</li>
+                            <li>Collaborated intimately in end-to-end product development, transforming physical testing mechanics into seamless digital workflows.</li>
+                        </ul>
+                        
+                        <div class="tech-stack-mini">
+                            <span>Full-Stack</span>
+                            <span>Secure Systems</span>
+                            <span>CFR 21 Compliance</span>
+                            <span>Lab Equipment Software</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Additional timeline items can be added here in the future -->
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section">
+            <div class="section-title reveal">
+                <h2>What I am <span class="gradient-text">Building</span></h2>
+                <div class="title-underline"></div>
+            </div>
+            
+            <div class="projects-grid reveal grid-3-col">
+                <!-- Project 1 -->
+                <div class="project-card glass-card">
+                    <div class="project-content">
+                        <div class="project-top">
+                            <i class='bx bx-folder project-icon'></i>
+                            <div class="project-links">
+                                <a href="#" aria-label="GitHub"><i class='bx bxl-github' ></i></a>
+                                <a href="#" aria-label="Live Demo"><i class='bx bx-link-external' ></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Full Stack Web Application (MERN)</h3>
+                        <p class="project-description">
+                            A highly responsive web application designed with a clean MVC architecture. Utilized React Hooks for responsive state management and connected to scalable backend systems with custom RESTful APIs to handle robust business logic.
+                        </p>
+                    </div>
+                    <div class="project-tech">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>Express</span>
+                        <span>MongoDB</span>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card glass-card">
+                    <div class="project-content">
+                        <div class="project-top">
+                            <i class='bx bx-shield-quarter project-icon'></i>
+                            <div class="project-links">
+                                <a href="#" aria-label="GitHub"><i class='bx bxl-github' ></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Secure E-Voting System (AI-driven)</h3>
+                        <p class="project-description">
+                            Developed a secure e-voting application prioritizing voter authenticity. Built facial authentication and gesture-based verification models to heavily mitigate fraudulent voting. Engineered REST APIs emphasizing scalability and strict data security.
+                        </p>
+                    </div>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Computer Vision</span>
+                        <span>REST APIs</span>
+                        <span>Security</span>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card glass-card">
+                    <div class="project-content">
+                        <div class="project-top">
+                            <i class='bx bx-closet project-icon'></i>
+                            <div class="project-links">
+                                <a href="#" aria-label="GitHub"><i class='bx bxl-github' ></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Custom Outfit Recommendation</h3>
+                        <p class="project-description">
+                            Built a user-centric software product targeting automated outfit recommendations. Handled dense data flow pipelines between a modern front-end UI and extensive back-end micro-services.
+                        </p>
+                    </div>
+                    <div class="project-tech">
+                        <span>React.js</span>
+                        <span>Algorithms</span>
+                        <span>API Integration</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section">
+            <div class="section-title reveal">
+                <h2>Get In <span class="gradient-text">Touch</span></h2>
+                <div class="title-underline"></div>
+                <p class="contact-subtitle">I'm currently seeking new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+            </div>
+            
+            <div class="contact-container reveal">
+                <div class="contact-info">
+                    <a href="mailto:karuturiajay2@gmail.com" class="contact-card">
+                        <div class="icon-box"><i class='bx bx-envelope'></i></div>
+                        <div>
+                            <h4>Email Me</h4>
+                            <p>karuturiajay2@gmail.com</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://www.linkedin.com/in/karuturiajay/" target="_blank" class="contact-card">
+                        <div class="icon-box"><i class='bx bxl-linkedin'></i></div>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <p>Connect professionally</p>
+                        </div>
+                    </a>
+
+                    <div class="contact-card">
+                        <div class="icon-box"><i class='bx bx-map'></i></div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Bengaluru 560098, India</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Send Message <i class='bx bx-send'></i></button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <a href="#hero" class="logo">Ajay<span>.</span></a>
+            <div class="footer-socials">
+                <a href="https://www.linkedin.com/in/karuturiajay/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/Karuturinoushikajay" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="mailto:karuturiajay2@gmail.com"><i class='bx bx-envelope'></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="year"></span> Karuturi Noushik Ajay. Built with HTML, CSS & JS.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
