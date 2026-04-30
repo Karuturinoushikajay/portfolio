@@ -213,7 +213,7 @@
                     <div class="timeline-content card glass-card">
                         <div class="timeline-header">
                             <div>
-                                <h3 class="role">Software Engineering Intern</h3>
+                                <h3 class="role">Software Development Engineer (SDE)</h3>
                                 <h4 class="company">Raise Lab Equipments</h4>
                             </div>
                             <span class="badge">Internship</span>
@@ -247,15 +247,65 @@
                 <div class="title-underline"></div>
             </div>
             
-            <div class="projects-grid reveal grid-3-col">
-                <!-- Project 1 -->
+            <div class="projects-featured reveal">
+                <article class="project-card project-card--featured glass-card" aria-label="GYMOS live product">
+                    <div class="project-featured-content">
+                        <div class="project-top project-top--featured">
+                            <i class="bx bx-dumbbell project-icon" aria-hidden="true"></i>
+                            <div class="project-featured-head-right">
+                                <span class="product-badge">Live product · In use</span>
+                                <div class="project-links">
+                                    <a href="#" aria-label="GYMOS on GitHub"><i class="bx bxl-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="project-title-featured">GYMOS – AI-Powered Fitness Tracking and Recommendation Platform</h3>
+                        <p class="project-description project-description--lead">
+                            GYMOS is a full-stack fitness product I ship to my own phone first: it records training sessions, nutrition, and trajectory over weeks—not a demo timeline. The app turns that stream into plans people can execute, then revises those plans when volume, recovery, or macros drift so users are not stuck maintaining a spreadsheet of guesses.
+                        </p>
+                        <ul class="project-feature-list">
+                            <li>AI-driven workout and meal suggestions tied to stated goals, recent sessions, and adherence—not generic templates.</li>
+                            <li>Live tracking for sets, meals, and markers of progress so the dashboard reflects what happened today, not last Sunday’s export.</li>
+                            <li>Adaptive scheduling that shortens, swaps, or reloads blocks when performance signals missed work, overload, or plateau.</li>
+                            <li>Profiles, targets, and guardrails kept in one place so recommendations stay personal as data grows.</li>
+                            <li>Analytics views for load trends, consistency, and nutrition gaps—built for quick decisions on a small screen.</li>
+                            <li>Interface tuned for thumb reach, fast logging, and glanceable summaries on real devices in real gyms.</li>
+                        </ul>
+                        <div class="project-psi">
+                            <div class="project-psi-col">
+                                <h4 class="project-psi-title">Problem</h4>
+                                <p>Logging apps collect data but rarely close the loop. Users still rebuild weekly plans by hand, which breaks the moment travel, injury, or diet slip happens.</p>
+                            </div>
+                            <div class="project-psi-col">
+                                <h4 class="project-psi-title">Solution</h4>
+                                <p>GYMOS unifies capture, analytics, and recommendation behind Flask APIs and a React client. Data-driven rules score recent behavior so the next training and nutrition block stays aligned with what the user can sustain.</p>
+                            </div>
+                            <div class="project-psi-col">
+                                <h4 class="project-psi-title">Impact</h4>
+                                <p>One product surface replaces fragmented trackers, notes, and calculators—so progress, streaks, and weak spots stay visible without hand-maintaining multiple tools.</p>
+                            </div>
+                        </div>
+                        <p class="project-tech-summary">Backend services own user data, recommendation passes, and dashboard aggregates; the architecture leaves clear seams for deeper AI coaching without rewriting core flows.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Flask</span>
+                            <span>React</span>
+                            <span>REST APIs</span>
+                            <span>Analytics</span>
+                            <span>Mobile-first UI</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <div class="projects-grid projects-grid--pair reveal">
                 <div class="project-card glass-card">
                     <div class="project-content">
                         <div class="project-top">
-                            <i class='bx bx-folder project-icon'></i>
+                            <i class="bx bx-folder project-icon"></i>
                             <div class="project-links">
-                                <a href="#" aria-label="GitHub"><i class='bx bxl-github' ></i></a>
-                                <a href="#" aria-label="Live Demo"><i class='bx bx-link-external' ></i></a>
+                                <a href="#" aria-label="GitHub"><i class="bx bxl-github"></i></a>
+                                <a href="#" aria-label="Live Demo"><i class="bx bx-link-external"></i></a>
                             </div>
                         </div>
                         <h3 class="project-title">Full Stack Web Application (MERN)</h3>
@@ -271,13 +321,12 @@
                     </div>
                 </div>
 
-                <!-- Project 2 -->
                 <div class="project-card glass-card">
                     <div class="project-content">
                         <div class="project-top">
-                            <i class='bx bx-shield-quarter project-icon'></i>
+                            <i class="bx bx-shield-quarter project-icon"></i>
                             <div class="project-links">
-                                <a href="#" aria-label="GitHub"><i class='bx bxl-github' ></i></a>
+                                <a href="#" aria-label="GitHub"><i class="bx bxl-github"></i></a>
                             </div>
                         </div>
                         <h3 class="project-title">Secure E-Voting System (AI-driven)</h3>
@@ -290,27 +339,6 @@
                         <span>Computer Vision</span>
                         <span>REST APIs</span>
                         <span>Security</span>
-                    </div>
-                </div>
-
-                <!-- Project 3 -->
-                <div class="project-card glass-card">
-                    <div class="project-content">
-                        <div class="project-top">
-                            <i class='bx bx-closet project-icon'></i>
-                            <div class="project-links">
-                                <a href="#" aria-label="GitHub"><i class='bx bxl-github' ></i></a>
-                            </div>
-                        </div>
-                        <h3 class="project-title">Custom Outfit Recommendation</h3>
-                        <p class="project-description">
-                            Built a user-centric software product targeting automated outfit recommendations. Handled dense data flow pipelines between a modern front-end UI and extensive back-end micro-services.
-                        </p>
-                    </div>
-                    <div class="project-tech">
-                        <span>React.js</span>
-                        <span>Algorithms</span>
-                        <span>API Integration</span>
                     </div>
                 </div>
             </div>
